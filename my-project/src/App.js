@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Projeto from './components/Projeto';
 
 function App() {
   return (
@@ -9,15 +10,8 @@ function App() {
         <p>
           Lets bora <code>codar</code> agora?
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <Projeto nome="meu primeiro projeto" dataInicio ="14/06/2024" dataFim="15/06/2024" contratante="Víctor D. Tigre" descricao="Um props com multiplos atributos"/>
     </div>
   );
 }
