@@ -97,3 +97,31 @@ function Projeto() {
     )
 }
 ```
+
+## 16/06 - Avançando em Props e Eventos ⚙️⚡
+Às vezes, é uma boa prática definir o Tipo das Propriedades, seja para limitar a inserção de dados inapropriados ou para auxiliar na interpretação de futuros programadores que porventura leiam o código.
+
+Essa definição pode ser feita através de: 
+```
+import PropTypes from 'prop-types'
+```
+E, após a definição do Componente (nesse caso ExemploString):
+```
+ExemploString.propTypes = {
+    stringTest : PropTypes.string.isRequired,
+```
+O código acima, por exemplo, determina que a prop `stringText` deve ser do tipo *String* e que não pode ser omitida (`.isRequired`)
+
+### Valores Default
+Também é possível definir valores Padrão para as propriedades de um Componente. Desse modo podemos garantir que, mesmo sem inserir dados, a propriedade será preenchida.
+
+| ⚠️ Definir um valor default torna o `.isRequired` obsoleto, uma vez que o valor nulo será preenchido pelo valor padrão ⚠️| 
+
+Para implementar o valor default em uma propriedade, basta seguir o exemplo:
+```
+Banner.defaultProps = {
+    url : "https://placehold.co/250"
+}
+```
+
+### Eventos

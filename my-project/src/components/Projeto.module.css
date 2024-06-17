@@ -1,5 +1,10 @@
 .projetoTitulo {
+    
     padding: 2rem;
-    background-color: black;
+    margin:  2rem;
     color:  white;
+    background-color: rgba(240, 248, 255, 0.5);
+    border:  solid 1px ;
+    
+
 }

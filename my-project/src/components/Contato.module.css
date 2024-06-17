@@ -1,0 +1,10 @@
+.formContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContato * {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
