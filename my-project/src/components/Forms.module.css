@@ -1,0 +1,8 @@
+.formsLogin {
+    padding: 0.75rem;
+    margin: 0.75rem;
+  }
+  
+.formsLogin * {
+    margin: 0.25rem;
+  }
