@@ -43,7 +43,7 @@ const [userStatus, setStatus] = useState(false)
             <div className={styles.formsLogin}>
                 <label htmlFor="comentario">Digite aqui seu comentário</label>
                 <br/>
-                <textarea id="comentario" name="comentario" cols={12} rows={6} >Olá, gostaria de fazer um projeto de...</textarea>
+                <textarea id="comentario" name="comentario" cols={25} rows={6} >Olá, gostaria de fazer um projeto de...</textarea>
             </div>
         )
         }
