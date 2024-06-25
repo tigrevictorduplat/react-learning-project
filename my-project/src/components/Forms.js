@@ -5,6 +5,8 @@ function Forms () {
     function fazerLogin(e){
         e.preventDefault()
         setStatus(true)
+        console.log("Login: "+ login)
+        console.log("Password: "+ password)
 
     }
 const [login, setLogin] = useState()
